@@ -10,7 +10,7 @@
         "homepage": "http://mrkdevelopment.com.au"
     }],
     "require": {
-        "mailgun/mailgun-php": "~1.8"
+        "mailgun/mailgun-php": "~2.3"
     },
     "autoload": {
     	"classmap": [
