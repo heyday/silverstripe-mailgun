@@ -1,0 +1,6 @@
+---
+Name: heyday-silverstripe-mailgun
+---
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Control\Email\SwiftMailer:
+    class: 'Mrk\Mailgun\Mailer'
