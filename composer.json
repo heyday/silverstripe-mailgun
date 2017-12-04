@@ -1,7 +1,7 @@
 {
-    "name": "mrkdevelopment/silverstripe-mailgun",
-    "type": "silverstripe-module",
-    "target-dir": "mrk-mailgun",
+    "name": "heyday/silverstripe-mailgun",
+    "type": "silverstripe-vendormodule",
+    "target-dir": "heyday",
     "description": "SilverStripe Module for sending email via Mailgun",
     "keywords": ["silverstripe","postmark", "email"],
     "authors": [{
