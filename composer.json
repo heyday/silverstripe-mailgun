@@ -16,8 +16,5 @@
     		"code"
     	]
 	},
-  "minimum-stability": "dev" ,
-    "extra": {
-        "installer-name": "mrk-mailgun"
-    }
+  "minimum-stability": "dev"
 }

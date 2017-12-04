@@ -1,11 +1,14 @@
-<?php namespace Mrk\Mailgun;
+<?php
+
+namespace Mrk\Mailgun;
 
 use Mailgun\Mailgun;
+use SilverStripe\Control\Email\SwiftMailer;
 
-class Mailer extends \Mailer
+
+class Mailer extends SwiftMailer
 {
     private $mailgun;
-
 
     /**
      * Mailer constructor.
