@@ -4,8 +4,12 @@ namespace Mrk\Mailgun;
 
 use Mailgun\Mailgun;
 use SilverStripe\Control\Email\SwiftMailer;
+use SilverStripe\Core\Config\Config;
 
-
+/**
+ * Class Mailer
+ * @package Mrk\Mailgun
+ */
 class Mailer extends SwiftMailer
 {
     private $mailgun;
