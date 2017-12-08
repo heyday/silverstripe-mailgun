@@ -19,9 +19,9 @@ class Mailer extends SwiftMailer
      */
     function __construct()
     {
-        $this->mailgunKey = \Config::inst()->get('MailGun', 'key');
-        $this->mailgunDomain = \Config::inst()->get('MailGun', 'domain');
-        $this->mailgunFrom = \Config::inst()->get('MailGun', 'from');
+        $this->mailgunKey = Config::inst()->get('MailGun', 'key');
+        $this->mailgunDomain = Config::inst()->get('MailGun', 'domain');
+        $this->mailgunFrom = Config::inst()->get('MailGun', 'from');
         $this->mailgun = new Mailgun($this->mailgunKey);
     }
 
